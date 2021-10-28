@@ -3,9 +3,9 @@
 	"type": "dark",
 	"colors": {
 		// Editor Background Color
-		"editor.background": "#31262523",
-		"editor.foreground": "#2bcccc",
-		"activityBarBadge.background": "#007acc",
+		"editor.background": "#0a0955",
+		// "editor.foreground": "#00FFFF",
+		"activityBarBadge.background": "#00FF00",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
@@ -59,6 +59,44 @@
 			"settings": {
 				"foreground": "#C792EA"
 			}
+		},
+		// Class Color Added
+		{
+			"name": "Class",
+			"scope": [
+				"storage.type.class.ts"
+			],
+			"settings": {
+				"foreground": "#00FFFF"
+			}
+		},
+		{
+			"name": "static",
+			"scope": [
+				"storage.modifier.ts"
+			],
+			"settings": {
+				"foreground": "#01f9c6"
+			}
+		},
+		{
+			"name": "public",
+			"scope": [
+				"storage.modifier.ts"
+			],
+			"settings": {
+				"foreground": "#0ff0fc"
+			}
+		},
+		{
+			"name": "private",
+			"scope": [
+				"storage.modifier.ts"
+			],
+			"settings": {
+				"foreground": "#ff3503"
+			}
+		},
 		},
 		{
 			"name": "Operator, Misc",
