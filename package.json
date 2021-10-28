@@ -1,0 +1,21 @@
+{
+    "name": "DThemeExt",
+    "displayName": "DTheme",
+    "description": "New VsCode Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DTheme-color-theme.json"
+            }
+        ]
+    }
+}
